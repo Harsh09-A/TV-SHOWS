@@ -1,0 +1,64 @@
+/* src/index.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* Custom styling for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Global card styling */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for headings */
+h1,
+h2,
+h3 {
+  color: #007bff;
+}
+
+/* Styling for form elements */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Additional styling for enhanced UI/UX */
+.bg-light-gray {
+  background-color: #f8f9fa;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+/* Add more global styles as needed */
